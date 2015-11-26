@@ -6,8 +6,7 @@ class PinsController < ApplicationController
 
   def index
     @pins = Pin.all
- #   respond_with(@pins)
-  end
+   end
 
   def show
     respond_with(@pin)
